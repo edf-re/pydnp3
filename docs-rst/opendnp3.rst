@@ -3394,35 +3394,35 @@ bool**
          command: pydnp3.opendnp3.ControlRelayOutputBlock, index: int,
          callback: Callable[[pydnp3.opendnp3.ICommandTaskResult],
          None], config: pydnp3.opendnp3.TaskConfig =
-         <pydnp3.opendnp3.TaskConfig object at 0x7f756d321cf0>) ->
+         <pydnp3.opendnp3.TaskConfig object at 0x7f05be019bf0>) ->
          None
 
       2. DirectOperate(self: pydnp3.opendnp3.ICommandProcessor,
          command: pydnp3.opendnp3.AnalogOutputInt16, index: int,
          callback: Callable[[pydnp3.opendnp3.ICommandTaskResult],
          None], config: pydnp3.opendnp3.TaskConfig =
-         <pydnp3.opendnp3.TaskConfig object at 0x7f756d324070>) ->
+         <pydnp3.opendnp3.TaskConfig object at 0x7f05be019f30>) ->
          None
 
       3. DirectOperate(self: pydnp3.opendnp3.ICommandProcessor,
          command: pydnp3.opendnp3.AnalogOutputInt32, index: int,
          callback: Callable[[pydnp3.opendnp3.ICommandTaskResult],
          None], config: pydnp3.opendnp3.TaskConfig =
-         <pydnp3.opendnp3.TaskConfig object at 0x7f756d317270>) ->
+         <pydnp3.opendnp3.TaskConfig object at 0x7f05be00bbb0>) ->
          None
 
       4. DirectOperate(self: pydnp3.opendnp3.ICommandProcessor,
          command: pydnp3.opendnp3.AnalogOutputFloat32, index: int,
          callback: Callable[[pydnp3.opendnp3.ICommandTaskResult],
          None], config: pydnp3.opendnp3.TaskConfig =
-         <pydnp3.opendnp3.TaskConfig object at 0x7f756d317330>) ->
+         <pydnp3.opendnp3.TaskConfig object at 0x7f05be00bcb0>) ->
          None
 
       5. DirectOperate(self: pydnp3.opendnp3.ICommandProcessor,
          command: pydnp3.opendnp3.AnalogOutputDouble64, index: int,
          callback: Callable[[pydnp3.opendnp3.ICommandTaskResult],
          None], config: pydnp3.opendnp3.TaskConfig =
-         <pydnp3.opendnp3.TaskConfig object at 0x7f756db2e9b0>) ->
+         <pydnp3.opendnp3.TaskConfig object at 0x7f05be00bdb0>) ->
          None
 
          Direct operate a single command.
@@ -3442,7 +3442,7 @@ bool**
          commands: pydnp3.opendnp3.CommandSet, callback:
          Callable[[pydnp3.opendnp3.ICommandTaskResult], None], config:
          pydnp3.opendnp3.TaskConfig = <pydnp3.opendnp3.TaskConfig
-         object at 0x7f756d317bb0>) -> None
+         object at 0x7f05be00f630>) -> None
 
          Direct operate a set of commands.
 
@@ -3463,35 +3463,35 @@ bool**
          command: pydnp3.opendnp3.ControlRelayOutputBlock, index: int,
          callback: Callable[[pydnp3.opendnp3.ICommandTaskResult],
          None], config: pydnp3.opendnp3.TaskConfig =
-         <pydnp3.opendnp3.TaskConfig object at 0x7f756dc7c030>) ->
+         <pydnp3.opendnp3.TaskConfig object at 0x7f05be019a30>) ->
          None
 
       2. SelectAndOperate(self: pydnp3.opendnp3.ICommandProcessor,
          command: pydnp3.opendnp3.AnalogOutputInt16, index: int,
          callback: Callable[[pydnp3.opendnp3.ICommandTaskResult],
          None], config: pydnp3.opendnp3.TaskConfig =
-         <pydnp3.opendnp3.TaskConfig object at 0x7f756d321db0>) ->
+         <pydnp3.opendnp3.TaskConfig object at 0x7f05be019bb0>) ->
          None
 
       3. SelectAndOperate(self: pydnp3.opendnp3.ICommandProcessor,
          command: pydnp3.opendnp3.AnalogOutputInt32, index: int,
          callback: Callable[[pydnp3.opendnp3.ICommandTaskResult],
          None], config: pydnp3.opendnp3.TaskConfig =
-         <pydnp3.opendnp3.TaskConfig object at 0x7f756d321e70>) ->
+         <pydnp3.opendnp3.TaskConfig object at 0x7f05be019cb0>) ->
          None
 
       4. SelectAndOperate(self: pydnp3.opendnp3.ICommandProcessor,
          command: pydnp3.opendnp3.AnalogOutputFloat32, index: int,
          callback: Callable[[pydnp3.opendnp3.ICommandTaskResult],
          None], config: pydnp3.opendnp3.TaskConfig =
-         <pydnp3.opendnp3.TaskConfig object at 0x7f756d321e30>) ->
+         <pydnp3.opendnp3.TaskConfig object at 0x7f05be019c70>) ->
          None
 
       5. SelectAndOperate(self: pydnp3.opendnp3.ICommandProcessor,
          command: pydnp3.opendnp3.AnalogOutputDouble64, index: int,
          callback: Callable[[pydnp3.opendnp3.ICommandTaskResult],
          None], config: pydnp3.opendnp3.TaskConfig =
-         <pydnp3.opendnp3.TaskConfig object at 0x7f756d321df0>) ->
+         <pydnp3.opendnp3.TaskConfig object at 0x7f05be019c30>) ->
          None
 
          Select and operate a single command.
@@ -3511,7 +3511,7 @@ bool**
          commands: pydnp3.opendnp3.CommandSet, callback:
          Callable[[pydnp3.opendnp3.ICommandTaskResult], None], config:
          pydnp3.opendnp3.TaskConfig = <pydnp3.opendnp3.TaskConfig
-         object at 0x7f756d317470>) -> None
+         object at 0x7f05be00beb0>) -> None
 
          Select and operate a set of commands.
 
@@ -5078,18 +5078,18 @@ pydnp3.opendnp3.MasterTaskType) -> str**
    pydnp3.opendnp3.IndexMode = IndexMode.Contiguous,
    maxControlsPerRequest: int = 16, selectTimeout:
    pydnp3.openpal.TimeDuration = <pydnp3.openpal.TimeDuration object
-   at 0x7f756d3135b0>, solConfirmTimeout: pydnp3.openpal.TimeDuration
-   = <pydnp3.openpal.TimeDuration object at 0x7f756db0f4f0>,
+   at 0x7f05be009bf0>, solConfirmTimeout: pydnp3.openpal.TimeDuration
+   = <pydnp3.openpal.TimeDuration object at 0x7f05be8265b0>,
    unsolConfirmTimeout: pydnp3.openpal.TimeDuration =
-   <pydnp3.openpal.TimeDuration object at 0x7f756db0f4f0>,
+   <pydnp3.openpal.TimeDuration object at 0x7f05be8265b0>,
    unsolRetryTimeout: pydnp3.openpal.TimeDuration =
-   <pydnp3.openpal.TimeDuration object at 0x7f756db0f4f0>,
+   <pydnp3.openpal.TimeDuration object at 0x7f05be8265b0>,
    maxTxFragSize: int = 2048, maxRxFragSize: int = 2048,
    allowUnsolicited: bool = False, typesAllowedInClass0:
    pydnp3.opendnp3.StaticTypeBitField =
-   <pydnp3.opendnp3.StaticTypeBitField object at 0x7f756d313570>,
+   <pydnp3.opendnp3.StaticTypeBitField object at 0x7f05be009bb0>,
    unsolClassMask: pydnp3.opendnp3.ClassField =
-   <pydnp3.opendnp3.ClassField object at 0x7f756d313530>) -> None**
+   <pydnp3.opendnp3.ClassField object at 0x7f05be009b70>) -> None**
 
    ``property allowUnsolicited``
 

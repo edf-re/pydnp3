@@ -561,7 +561,7 @@ Bindings for asiodnp3 namespace
    **AddAllObjectsScan(self: pydnp3.asiodnp3.IMasterOperations, gvId:
    pydnp3.opendnp3.GroupVariationID, period:
    pydnp3.openpal.TimeDuration, config: pydnp3.opendnp3.TaskConfig =
-   <pydnp3.opendnp3.TaskConfig object at 0x7f756d2230b0>) ->
+   <pydnp3.opendnp3.TaskConfig object at 0x7f05be00b930>) ->
    `pydnp3.asiodnp3.IMasterScan <#pydnp3.asiodnp3.IMasterScan>`_**
 
          Add a scan that requests all objects using qualifier code
@@ -577,7 +577,7 @@ Bindings for asiodnp3 namespace
    **AddClassScan(self: pydnp3.asiodnp3.IMasterOperations, field:
    pydnp3.opendnp3.ClassField, period: pydnp3.openpal.TimeDuration,
    config: pydnp3.opendnp3.TaskConfig = <pydnp3.opendnp3.TaskConfig
-   object at 0x7f756d223170>) -> `pydnp3.asiodnp3.IMasterScan
+   object at 0x7f05bdff0bf0>) -> `pydnp3.asiodnp3.IMasterScan
    <#pydnp3.asiodnp3.IMasterScan>`_**
 
          Add a class-based scan to the master.
@@ -592,7 +592,7 @@ Bindings for asiodnp3 namespace
    **AddRangeScan(self: pydnp3.asiodnp3.IMasterOperations, gvId:
    pydnp3.opendnp3.GroupVariationID, start: int, stop: int, period:
    pydnp3.openpal.TimeDuration, config: pydnp3.opendnp3.TaskConfig =
-   <pydnp3.opendnp3.TaskConfig object at 0x7f756d223230>) ->
+   <pydnp3.opendnp3.TaskConfig object at 0x7f05bdf25230>) ->
    `pydnp3.asiodnp3.IMasterScan <#pydnp3.asiodnp3.IMasterScan>`_**
 
          Add a start/stop (range) scan to the master.
@@ -607,7 +607,7 @@ Bindings for asiodnp3 namespace
    **AddScan(self: pydnp3.asiodnp3.IMasterOperations, period:
    pydnp3.openpal.TimeDuration, headers: List[pydnp3.opendnp3.Header],
    config: pydnp3.opendnp3.TaskConfig = <pydnp3.opendnp3.TaskConfig
-   object at 0x7f756dc648f0>) -> `pydnp3.asiodnp3.IMasterScan
+   object at 0x7f05be00b630>) -> `pydnp3.asiodnp3.IMasterScan
    <#pydnp3.asiodnp3.IMasterScan>`_**
 
          Add a recurring user-defined scan from a vector of headers.
@@ -622,7 +622,7 @@ Bindings for asiodnp3 namespace
    **PerformFunction(self: pydnp3.asiodnp3.IMasterOperations, name:
    str, func: pydnp3.opendnp3.FunctionCode, headers:
    List[pydnp3.opendnp3.Header], config: pydnp3.opendnp3.TaskConfig =
-   <pydnp3.opendnp3.TaskConfig object at 0x7f756d2232b0>) -> None**
+   <pydnp3.opendnp3.TaskConfig object at 0x7f05be01dcf0>) -> None**
 
          Perform any operation that requires just a function code
 
@@ -633,7 +633,7 @@ Bindings for asiodnp3 namespace
    pydnp3.opendnp3.RestartType, callback:
    Callable[[pydnp3.opendnp3.RestartOperationResult], None], config:
    pydnp3.opendnp3.TaskConfig = <pydnp3.opendnp3.TaskConfig object at
-   0x7f756dc66730>) -> None**
+   0x7f05bdf251f0>) -> None**
 
          Perform a cold or warm restart and get back the
          time-to-complete value
@@ -643,7 +643,7 @@ Bindings for asiodnp3 namespace
 
    **Scan(self: pydnp3.asiodnp3.IMasterOperations, headers:
    List[pydnp3.opendnp3.Header], config: pydnp3.opendnp3.TaskConfig =
-   <pydnp3.opendnp3.TaskConfig object at 0x7f756d2232f0>) -> None**
+   <pydnp3.opendnp3.TaskConfig object at 0x7f05bdf25270>) -> None**
 
          Initiate a single user defined scan via a vector of headers.
 
@@ -653,7 +653,7 @@ Bindings for asiodnp3 namespace
    **ScanAllObjects(self: pydnp3.asiodnp3.IMasterOperations, gvId:
    pydnp3.opendnp3.GroupVariationID, config:
    pydnp3.opendnp3.TaskConfig = <pydnp3.opendnp3.TaskConfig object at
-   0x7f756d223330>) -> None**
+   0x7f05bdf25370>) -> None**
 
          Initiate a single scan that requests all objects (0x06
          qualifier code) for a certain group and variation.
@@ -663,7 +663,7 @@ Bindings for asiodnp3 namespace
 
    **ScanClasses(self: pydnp3.asiodnp3.IMasterOperations, field:
    pydnp3.opendnp3.ClassField, config: pydnp3.opendnp3.TaskConfig =
-   <pydnp3.opendnp3.TaskConfig object at 0x7f756d2233f0>) -> None**
+   <pydnp3.opendnp3.TaskConfig object at 0x7f05bdf253f0>) -> None**
 
          Initiate a single class-based scan.
 
@@ -673,7 +673,7 @@ Bindings for asiodnp3 namespace
    **ScanRange(self: pydnp3.asiodnp3.IMasterOperations, gvId:
    pydnp3.opendnp3.GroupVariationID, start: int, stop: int, config:
    pydnp3.opendnp3.TaskConfig = <pydnp3.opendnp3.TaskConfig object at
-   0x7f756d223470>) -> None**
+   0x7f05bdf25430>) -> None**
 
          Initiate a single start/stop (range) scan
 
@@ -689,7 +689,7 @@ Bindings for asiodnp3 namespace
    **Write(self: pydnp3.asiodnp3.IMasterOperations, value:
    pydnp3.opendnp3.TimeAndInterval, index: int, config:
    pydnp3.opendnp3.TaskConfig = <pydnp3.opendnp3.TaskConfig object at
-   0x7f756d223570>) -> None**
+   0x7f05bdf25470>) -> None**
 
          Write a time and interval object to a specific index
 

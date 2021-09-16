@@ -21,6 +21,8 @@ project = "PyDNP3"
 copyright = "TODO"
 author = "TODO"
 
+# Base URL for website
+html_baseurl = "/pydnp3"
 
 # -- General configuration ---------------------------------------------------
 
